@@ -1,1 +1,1 @@
-
+Responsive landing page adapts its layout and design to fit various screen sizes—desktop, tablet, and mobile—without compromising usability or appearance. It’s often the first impression of a product, brand, or portfolio, so it should be visually engaging and highly functional.
