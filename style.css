@@ -1,0 +1,65 @@
+/* Reset and base styles */
+* {
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 50;
+  width: 100%;
+  background-color: darkorchid;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00; /* Hover effect */
+}
+
+/* Scroll effect placeholder */
+.navbar.scrolled {
+  background-color: #222;
+}
+
+/* Hero Section */
+.hero {
+  padding-top: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+}
